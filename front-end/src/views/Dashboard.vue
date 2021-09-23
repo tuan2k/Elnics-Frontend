@@ -1,5 +1,6 @@
 <template>
-    <div class='loader'>
+    <div class="body">
+         <div class='loader'>
             <div class='spinner-grow text-primary' role='status'>
                 <span class='sr-only'>Loading...</span>
             </div>
@@ -439,6 +440,46 @@
                     </div>
                 </div>
             </div>
+        <script src="../assets/admin/plugins/jquery/jquery-3.4.1.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/bootstrap/popper.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/bootstrap/js/bootstrap.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/jquery-sparkline/jquery.sparkline.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/apexcharts/dist/apexcharts.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/blockui/jquery.blockUI.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/flot/jquery.flot.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/flot/jquery.flot.time.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/flot/jquery.flot.symbol.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/flot/jquery.flot.resize.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/plugins/flot/jquery.flot.tooltip.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/js/connect.min.js" type="application/javascript"></script>
+        <script src="../assets/admin/js/pages/dashboard.js" type="application/javascript"></script>
         </div>
+        <!-- <script src="{{ asset('../assets/admin/plugins/jquery/jquery-3.4.1.min.js') }}" type="application/javascript"></script> -->
+    </div>
 </template>
 
+<script>
+  export default {
+    data: () => ({
+      
+    }),
+    mounted() {
+      let recaptchaScript = document.createElement('script')
+      recaptchaScript.setAttribute('src', '../assets/admin/plugins/jquery/jquery-3.4.1.min.js')
+      document.head.appendChild(recaptchaScript)
+    },
+    methods: {
+      
+    }
+  }
+</script>
+
+<style>
+  @import '../assets/admin/css/connect.min.css';
+  @import '../assets/admin/css/dark_theme.css';
+  @import '../assets/admin/css/custom.css';
+  @import '../assets/admin/plugins/bootstrap/css/bootstrap.min.css';
+  @import '../assets/admin/plugins/font-awesome/css/all.min.css';
+
+</style>
