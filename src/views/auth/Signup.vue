@@ -1,0 +1,50 @@
+<template>
+    <div class="auth-page sign-in">
+        <div class='loader'>
+            <div class='spinner-grow text-primary' role='status'>
+                <span class='sr-only'>Loading...</span>
+            </div>
+        </div>
+        <div class="connect-container align-content-stretch d-flex flex-wrap">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="auth-form">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="logo-box"><a href="#" class="logo-text">Connect</a></div>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email1" placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="username" placeholder="Username">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-block btn-submit">Sign Up</button>
+                                        <div class="auth-options">
+                                            <div class="custom-control custom-checkbox form-group">
+                                                <input type="checkbox" class="custom-control-input" id="exampleCheck1">
+                                                <label class="custom-control-label" for="exampleCheck1">Sign me in</label>
+                                            </div>
+                                            <router-link to="/signin" class="forgot-link">Already have an account?</router-link>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block d-xl-block">
+                        <div class="auth-image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+
+</script>
