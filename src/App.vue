@@ -20,6 +20,8 @@ export default {
   }
 }
 </script>
+
+<!--
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -42,3 +44,5 @@ export default {
   color: #42b983;
 }
 </style>
+
+ -->

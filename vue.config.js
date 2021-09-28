@@ -22,7 +22,7 @@ module.exports = {
           filename: 'index.html'
         },
         index:{
-          // entry for the *public* ypage
+          // entry for the *public* page
           entry: 'src/router/router_front.js',
           // the source template
           template: 'public/index.html',
